@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Background Image */
+  .background {
+    background-image: url('../Images/OKC.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 15px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  /* Title Section */
+  .main-title {
+    font-size: 12rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: rgba(17, 17, 17, 0.466);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    color: white;
+  }
+  
+  .about-section h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p {
+    margin
+  }
+
+  /* Menu Icon */
+.menu-icon {
+    cursor: pointer ;
+    z-index: 10;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: none; /* Hidden by default */
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 10px 0;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Menu Visible State */
+  .menu.active {
+    display: block;
+  }
+  
+  /* Link styling */
+  a:link, a:visited {
+    color: rgb(246, 246, 247); /* Set your preferred link color */
+    text-decoration: none; /* Remove underline if needed */
+}
+
+/* Optional hover and active styling */
+a:hover {
+    color: rgb(45, 31, 247); /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+a:active {
+    color: red; /* Change color when clicking */
+}
