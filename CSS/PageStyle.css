@@ -111,6 +111,31 @@
     list-style-type: none;
   }
 
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  @media (max-width: 800px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .creditunions {
+    text-align: center;
+  }
+
   .hamburger-menu {
     display: flex;
     flex-direction: column;
