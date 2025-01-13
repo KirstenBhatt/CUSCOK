@@ -24,7 +24,7 @@
   
   /* Title Section */
   .main-title {
-    font-size: 12rem;
+    font-size: clamp(8rem, 2.2857rem + 18.2857vw ,12rem);
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -33,7 +33,7 @@
   }
   
   .subtitle {
-    font-size: 3rem;
+    font-size: clamp(2.25rem, 1.7143rem + 1.7143vw, 3rem);
     font-weight: 300;
     margin-bottom: 20px;
     text-align: center;
@@ -50,7 +50,7 @@
   }
   
   .about-section h3 {
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 1.5714rem + 0.5714vw, 2rem);
     margin-bottom: 15px;
     text-align: center;
   }
@@ -193,7 +193,7 @@
     display: block;
   }
 
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
   .main-title {
     font-size: 8rem;
   }
@@ -205,4 +205,4 @@
   .about-section h3 {
     font-size: 1.75rem;
   }
-}
+}*/
