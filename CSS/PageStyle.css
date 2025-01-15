@@ -168,9 +168,11 @@
   }
 
   @keyframes open-menu {
-    0% {left: -200px;}
+    0% {left: -200px;
+    opacity: 0%;}
     70% {left: 25px;}
-    100% {left: 15px;}
+    100% {left: 15px;
+    opacity: 100%;}
   }
   
   .menu ul {
