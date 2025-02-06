@@ -121,13 +121,25 @@
     text-align: center;
   }
 
-  .grid div {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+
+  .grid div, .flex div {
     border: 2px solid white;
     border-radius: 16px;
     padding: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+  }
+
+  .flex div {
+    max-width: 250px;
+    min-height: 150px;
   }
 
   .grid img {
