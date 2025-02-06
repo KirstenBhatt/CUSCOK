@@ -70,20 +70,20 @@
     padding: 10%;
   }
 
-  #app-link {
-    background-color: #28a745; /* Green background */
+  button {
+    background-color: #28a745;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   }
   
-  #app-link:hover {
-    background-color: #218838; /* Darker green on hover */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  button:hover {
+    background-color: #218838;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .container {
