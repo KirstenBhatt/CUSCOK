@@ -44,7 +44,7 @@
     background: rgba(17, 17, 17, 1);
     padding: 20px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 1000px;
     color: white;
     margin: auto;
   }
@@ -64,6 +64,10 @@
     line-height: 1.5;
     margin: auto;
     margin-bottom: 16px;
+  }
+
+  p {
+    font-size: clamp(1rem, .9038rem + 0.3077vw, 1.25rem);
   }
   
   .content {
