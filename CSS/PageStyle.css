@@ -1,4 +1,5 @@
-/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.6;
     margin: 0;
@@ -24,7 +25,7 @@
   
   /* Title Section */
   .main-title {
-    font-size: clamp(8rem, 2.2857rem + 18.2857vw ,12rem);
+    font-size: clamp(6rem, 4.5517rem + 6.6207vw ,12rem);
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -33,7 +34,7 @@
   }
   
   .subtitle {
-    font-size: clamp(2.25rem, 1.7143rem + 1.7143vw, 3rem);
+    font-size: clamp(2.25rem, 2.069rem + 0.8276vw, 3rem);
     font-weight: 300;
     margin-bottom: 20px;
     text-align: center;
@@ -50,7 +51,7 @@
   }
   
   .about-section h3 {
-    font-size: clamp(1.75rem, 1.5714rem + 0.5714vw, 2rem);
+    font-size: clamp(1.75rem, 1.6897rem + 0.2759vw, 2rem);
     margin-bottom: 15px;
     text-align: center;
   }
@@ -67,7 +68,7 @@
   }
 
   p {
-    font-size: clamp(1rem, .9038rem + 0.3077vw, 1.25rem);
+    font-size: clamp(1rem, .9397rem + 0.2759vw, 1.25rem);
   }
   
   .content {
