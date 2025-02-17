@@ -70,6 +70,8 @@
             font-size: 15rem;
             font-weight: bold;
             text-shadow: 2px 2px 5px rgb(12, 12, 12);
+            transition: transform 0.3s ease;
+            transform: scale(0.7);
         }
 
         @media (max-width: 600px) {
