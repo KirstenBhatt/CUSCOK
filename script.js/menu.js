@@ -6,6 +6,12 @@ function openCloseMenu() {
   menu.classList.toggle('hide');
 
   menu.inert = menu.inert ? false : true;
+  
+  if (hamburger.ariaExpanded == 'false') {
+    hamburger.ariaExpanded = 'true';
+  } else {
+    hamburger.ariaExpanded = 'false';
+  }
 }
 
 hamburger.addEventListener('click', openCloseMenu);
