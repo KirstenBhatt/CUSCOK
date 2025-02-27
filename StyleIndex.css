@@ -10,7 +10,7 @@
         /* Body Styling */
         body {
             font-family: 'Roboto', Arial, sans-serif;
-            background: url('../Images/OKC.png') no-repeat center center fixed;
+            background: url('./Images/OKC.png');
             background-size: cover;
             color: white;
         }
