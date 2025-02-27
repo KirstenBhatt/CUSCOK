@@ -10,10 +10,18 @@
         /* Body Styling */
         body {
             font-family: 'Roboto', Arial, sans-serif;
-            background: url('./Images/OKC.png');
+            color: rgb(255, 255, 255);
+            line-height: 1.6;
+            margin: 0;
+            background-image: url('./Images/OKC.png');
+            background-repeat: no-repeat;
             background-size: cover;
-            color: white;
-        }
+            background-attachment: fixed;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+  }
         
         /* Header Styling */
         header {
@@ -55,10 +63,6 @@
         
         /* Main Title Styling */
         .main-title {
-            position: absolute;
-            /*top: 50%;
-            left: 50%;*/
-            /*transform: translate(-50%, -50%);*/
             display: flex;
             align-items: center;
             justify-content: center;
@@ -66,17 +70,81 @@
             padding-top: 8vh;
         }
 
-        #cusc {
-            font-size: 15rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 5px rgb(12, 12, 12);
-            transition: transform 0.3s ease;
-            transform: scale(0.7);
-        }
 
         @media (max-width: 600px) {
             nav {
                 display: none;
             }
         }
-        
+         /* About Section */
+    .about-section {
+         background: rgba(17, 17, 17, 1);
+         padding: 20px;
+         border-radius: 10px;
+         max-width: 1000px;
+         color: white;
+         margin: auto;
+     }
+  
+    .about-section h3 {
+        font-size: clamp(1.75rem, 1.6897rem + 0.2759vw, 2rem);
+        margin-bottom: 15px;
+        text-align: center;
+     }
+
+  .about-section h4 {
+        text-align: center;
+     }
+
+    .about-section p {
+        max-inline-size: 75ch;
+        line-height: 1.5;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: clamp(1rem, .9397rem + 0.2759vw, 1.25rem);
+    }
+  
+    .content {
+       padding: 10%;
+     }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.right-column {
+    flex: 2;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
