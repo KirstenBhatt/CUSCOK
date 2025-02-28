@@ -158,7 +158,22 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-top: 8vh;
+}
+
+#service {
+    width: 60vw;
+}
+
+#atm {
+    width: 20vw;
+}
+
+#sb {
+    width: 20vw;
+}
+
+#mhl {
+    width: 20vw;
 }
 
 .about-section {
@@ -211,10 +226,11 @@ main {
 }
 
 .left-column {
-    flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    margin: 30px;
 }
 
 .left-column img {
