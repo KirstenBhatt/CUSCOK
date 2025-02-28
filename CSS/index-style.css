@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    margin: 0;
+    background-image: url('./Images/OKC.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+        
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(102, 102, 102, 0.5);
+    text-shadow: 2px 2px 5px rgb(12, 12, 12);
+}
+        
+header h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+        
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(102, 102, 102, 0.5);
+    padding: 30px 0;
+    text-shadow: 2px 2px 5px rgb(12, 12, 12);
+}
+        
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+        
+nav a:hover {
+    background-color: rgb(35, 35, 35);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8vh;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+        }
+}
+
+.about-section {
+    background: rgba(17, 17, 17, 1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    color: white;
+    margin: auto;
+}
+  
+.about-section h3 {
+    font-size: clamp(1.75rem, 1.6897rem + 0.2759vw, 2rem);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-section h4 {
+    text-align: center;
+}
+
+.about-section p {
+    max-inline-size: 75ch;
+    line-height: 1.5;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: clamp(1rem, .9397rem + 0.2759vw, 1.25rem);
+}
+  
+.content {
+    padding: 10%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.right-column {
+    flex: 2;
+    background: rgba(17, 17, 17, 1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    color: white;
+    margin: auto;
+    text-align: cemt;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
