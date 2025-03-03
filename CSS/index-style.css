@@ -162,6 +162,7 @@ nav a:hover {
 
 #service {
     width: 60vw;
+    margin-bottom: 100px;
 }
 
 #atm {
@@ -200,7 +201,6 @@ nav a:hover {
     line-height: 1.5;
     margin: auto;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 p {
@@ -215,6 +215,10 @@ p {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.container img {
+    margin: 50px;
 }
 
 header {
