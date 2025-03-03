@@ -185,7 +185,7 @@ nav a:hover {
     margin: auto;
 }
   
-.about-section h3 {
+.about-section h2 {
     font-size: clamp(1.75rem, 1.6897rem + 0.2759vw, 2rem);
     margin-bottom: 15px;
     text-align: center;
@@ -200,6 +200,7 @@ nav a:hover {
     line-height: 1.5;
     margin: auto;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 p {
@@ -253,4 +254,11 @@ main {
 footer {
     text-align: center;
     margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    justify-content: center;
 }
