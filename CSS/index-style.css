@@ -161,7 +161,8 @@ nav a:hover {
 }
 
 #service {
-    width: 60vw;
+    width: 50vw;
+    max-width: 800px;
     margin-bottom: 100px;
 }
 
