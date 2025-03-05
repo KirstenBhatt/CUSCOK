@@ -106,6 +106,21 @@ p {
   padding: 10px;
 }
 
+.inline {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
 button {
   background-color: #28a745;
   color: white;
