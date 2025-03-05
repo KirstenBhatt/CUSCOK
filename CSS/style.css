@@ -21,6 +21,19 @@ body {
   align-items: center;
   position: relative;
 }
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(102, 102, 102, 0.5);
+  text-shadow: 2px 2px 5px rgb(12, 12, 12);
+}
+      
+header h1 {
+  padding: 10px;
+  font-size: clamp(3rem, 1.8966rem + 2.7586vw, 5rem);
+  letter-spacing: 2px;
+}
   
 .main-title {
   font-size: clamp(6rem, 4.5517rem + 6.6207vw ,12rem);
