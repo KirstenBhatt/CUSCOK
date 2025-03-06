@@ -161,21 +161,24 @@ nav a:hover {
 }
 
 #service {
-    width: 50vw;
+    width: 40vw;
     max-width: 800px;
     margin-bottom: 100px;
 }
 
 #atm {
-    width: 20vw;
+    width: 15vw;
+    margin-top: -35%;
 }
 
 #sb {
-    width: 20vw;
+    width: 15vw;
+    margin-top: -35%;
 }
 
 #mhl {
-    width: 20vw;
+    width: 15vw;
+    margin-top: -35%;
 }
 
 .about-section {
