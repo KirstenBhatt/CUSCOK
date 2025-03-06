@@ -227,10 +227,6 @@ p {
     padding: 20px;
 }
 
-header {
-    text-align: center;
-}
-
 main {
     display: flex;
     gap: 20px;
