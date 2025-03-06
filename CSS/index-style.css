@@ -163,22 +163,19 @@ nav a:hover {
 #service {
     width: 40vw;
     max-width: 800px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 #atm {
-    width: 15vw;
-    margin-top: -35%;
+    width: clamp(80px, 15vw, 200px);
 }
 
 #sb {
-    width: 15vw;
-    margin-top: -35%;
+    width: clamp(80px, 15vw, 200px);
 }
 
 #mhl {
-    width: 15vw;
-    margin-top: -35%;
+    width: clamp(80px, 15vw, 200px);
 }
 
 .about-section {
@@ -222,7 +219,12 @@ p {
 }
 
 .container img {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.spacer {
+    padding: 20px;
 }
 
 header {
@@ -265,8 +267,6 @@ footer {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
 }
