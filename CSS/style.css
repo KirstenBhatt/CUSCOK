@@ -22,7 +22,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 header {
@@ -39,18 +38,15 @@ header h1 {
 }
 
 #service {
-  width: 40vw;
-  max-width: 800px;
+  width: clamp(200px, 40vw, 800px);
   margin-bottom: 20px;
 }
   
 .main-title {
-  font-size: clamp(6rem, 4.5517rem + 6.6207vw ,12rem);
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  margin: auto;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
   
 .subtitle {

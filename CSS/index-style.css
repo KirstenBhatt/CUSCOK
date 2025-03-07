@@ -164,8 +164,7 @@ nav a:hover {
 }
 
 #service {
-    width: 40vw;
-    max-width: 800px;
+    width: clamp(200px, 40vw, 800px);
     margin-bottom: 20px;
 }
 
